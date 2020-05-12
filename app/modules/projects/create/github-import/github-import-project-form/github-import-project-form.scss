@@ -3,7 +3,7 @@
 }
 
 .create-project-github-import-type {
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
     text-align: center;
 
     p {
@@ -57,5 +57,12 @@
     &-description {
         @include font-type(light);
         @include font-size(small);
+    }
+
+    .template-issues {
+        color: $black;
+    }
+    .template-public {
+        display: flex;
     }
 }
